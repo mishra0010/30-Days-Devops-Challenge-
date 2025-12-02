@@ -13,7 +13,7 @@ For the next 30 days, I will study, practice, and build DevOps-related concepts 
 | Day | Topic | Status |
 |-----|--------|--------|
 | 1 | Challenge Setup + Repo Creation | ✔️ Done |
-| 2 | Linux Basics | ⏳ Pending |
+| 2 | Linux Basics | ✔️ Done |
 | 3 | Processes & Networking | ⏳ Pending |
 | ... | ... | ... |
 | 30 | Final DevOps Project + Summary | ⏳ Pending |
