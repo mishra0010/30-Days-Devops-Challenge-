@@ -1,0 +1,26 @@
+$ mkdir devops-day2
+$ cd devops-day2
+$ touch file1.txt file2.txt
+
+$ echo "Hello DevOps" > file1.txt
+
+$ ls -l
+total 8
+-rw-r--r-- 1 user user 12 Jan 28  file1.txt
+-rw-r--r-- 1 user user  0 Jan 28  file2.txt
+
+$ cp file1.txt copy-file.txt
+
+$ ls -l
+total 12
+-rw-r--r-- 1 user user 12 Jan 28  file1.txt
+-rw-r--r-- 1 user user  0 Jan 28  file2.txt
+-rw-r--r-- 1 user user 12 Jan 28  copy-file.txt
+
+$ chmod 755 copy-file.txt
+
+$ ls -l
+total 12
+-rw-r--r-- 1 user user 12 Jan 28  file1.txt
+-rw-r--r-- 1 user user  0 Jan 28  file2.txt
+-rwxr-xr-x 1 user user 12 Jan 28  copy-file.txt
